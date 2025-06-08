@@ -14,6 +14,8 @@ Then open powershell and install modules and setup profile:
 - then add PSReadLine `Install-Module PsReadLine -Force`
 - PSReadLine may already be installed, but check the version and upgrade `Install-Module -Name PSReadLine -RequiredVersion 2.3.6`
 
+Update the profile file, save and restart the terminal.
+
 full profile:
 ```
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\jv_sitecorian.omp.json" | Invoke-Expression
